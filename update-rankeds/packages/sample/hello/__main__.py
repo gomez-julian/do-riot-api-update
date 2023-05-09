@@ -1,5 +1,5 @@
-from riotwatcher import LolWatcher, ApiError
 from astrapy.rest import create_client, http_methods
+from riotwatcher import LolWatcher, ApiError
 
 api_key = 'RGAPI-521709eb-7a32-4f43-aae5-f3641c938600'
 watcher = LolWatcher(api_key)

@@ -2,6 +2,6 @@
 
 set -e
 
-virtualenv virtualenv
+virtualenv virtualenv 
 source virtualenv/bin/activate
-pip install -r requirements.txt
+pip install riotwatcher astrapy
